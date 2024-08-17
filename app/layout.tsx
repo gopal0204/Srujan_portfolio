@@ -10,8 +10,8 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Sista Gopala Krishna | Personal Portfolio",
-  description: "Sista Gopala Krishna is a research enthusiast and intersted in applied mathematic and computational science.",
+  title: "Srujan Geedipalli | Personal Portfolio",
+  description: "Srujan Geedipalli is a research enthusiast and intersted in applied mathematic and computational science.",
 };
 
 export default function RootLayout({

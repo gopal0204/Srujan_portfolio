@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import securedominationImg from "@/public/graph-algorithms1.png";
-import phishingImg from "@/public/phishing.png";
-import classroomImg from "@/public/classmanage.png";
+import securedominationImg from "@/public/download.png";
+
+import classroomImg from "@/public/1-s2.0-S0925231222012772-gr3.jpg";
 import chessImg from "@/public/chesssup.png";
 
 
@@ -37,37 +37,44 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Memeber",
+    title: "Executive Member",
     location: "CSEA NIT Andhra Pradesh",
     description:
-      "I word as designer and designed near 50+ posters for events and workshops. I also upskilled in Ui/Ux design.",
+      "I am working as a executive member in CSEA NIT Andhra Pradesh. I am responsible for conducting workshops, hackathons, and other events. I am also responsible for managing the club's social media accounts and website.",
     icon: React.createElement(CgWorkAlt),
-    date: "AUG 2022 - AUG 2023",
+    date: "AUG 2022 - AUG 2024",
   },
   {
     title: "Research Intern",
-    location: "NIT Warangal",
+    location: "IIIT Hyderabad",
     description:
-      "During the internship, I proposed a genetic algorithm-based solution for solving a well-known variant of the domination problem called secure domination problem. Presented the GENETIC ALGORITHM FOR SECURE DOMINATION PROBLEM paper in ICAMM_2023 Conference (IIT Indore) and got accepted.",
+      "During this internship I worked on stutering detection and classification using machine learning and deep learning techniques.",
     icon: React.createElement(CgWorkAlt),
-    date: "JUN 2023 - AUG 2023",
+    date: "JUN 2023 - SEP 2023",
   },
   {
     title: "Executive Member",
     location: "Graphic Cafe NIT Andhra Pradesh",
     description:
-      "I working as desinger. I familiar with Adobe Photoshop, Adobe Illustrator, Adobe XD, Figma, Canva",
+      "I am responsible for managing and handiling the social media accounts and increasing the connections to the club.",
       icon: React.createElement(CgWorkAlt),
     date: "SEP 2023 - present",
+  },
+  {
+    title: "Research Intern",
+    location: "NIT Warangal",
+    description:
+      "During this internship I worked on quasii total roman domination in graphs.",
+    icon: React.createElement(CgWorkAlt),
+    date: "MAR 2024 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Classroom Management System",
-    description:
-      "Developed a web app for managing classrooms, students, teachers, and courses. It has features like attendance, marks, reminder system and timetable.",
-    tags: ["JavaScript", "React", "Node.js", "MongoDB", "Express"],
+    title: "Stuttering Detection and Classification",
+    description:"I analyzed speech data from three stuttering datasets and converted it into spectrograms using MFCCs. I developed an SVM classifier that achieved 85% accuracy in events.",
+    tags: ["Speech proccessing", "Python", "ML"],
     imageUrl: classroomImg,
   },
   {
@@ -78,22 +85,23 @@ export const projectsData = [
     imageUrl: chessImg,
   },
   {
-    title: "Genetic and PSO algorithms for secure domination problem",
+    title: "Checkmein",
     description:
-      "Developed to identify the optimal solution for secure domination problem using Genetic and PSO algorithms.",
-    tags: ["Python", "Algorithms", "Graphs"],
+    "I built an Android app with Kotlin for facial recognition attendance, achieving 97% accuracy with the Mobile FaceNet model. The app reduced faculty workload by 45 minutes daily using Kotlin Coroutines for better performance.",
+    tags: ["Kotlin", "Python", "Flask", "Firebase"],
     imageUrl: securedominationImg,
-  },
-  {
-    title: "Phishing URL Detection",
-    description:
-      "Developed a model to block fraudulent websites designed to steal sensitive information.",
-    tags: ["Python", "HTML", "CSS", "Pandas", "NumPy", "Machine Learning"],
-    imageUrl: phishingImg,
   },
 ] as const;
 
 export const skillsData = [
+  "DSA",
+  "Applied Machine Learning",
+  "NLP",
+  "Deep Learning",
+  "Artificial Intelligence",
+  "Operating Systems",
+  "Computer Networks",
+  "Software Engineering",
   "Java",
   "Python",
   "HTML",
@@ -109,16 +117,5 @@ export const skillsData = [
   "MySQL",
   "C",
   "C++",
-  "NumPy",
-  "Pandas",
-  "DSA",
-  "Applied Machine Learning",
-  "NLP",
-  "Algorithms",
-  "Artificial Intelligence",
-  "Operating Systems",
-  "Computer Networks",
-  "Software Engineering",
   "Linux",
-  "PowerBI",
 ] as const;
