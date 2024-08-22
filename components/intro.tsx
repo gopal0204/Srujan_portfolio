@@ -63,7 +63,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Srujan,</span>a{" "}
-        <span className="font-bold">Softwer developer</span> with a passion for creating{" "}
+        <span className="font-bold">Software developer</span> with a passion for creating{" "}
         <span>applications and websites</span>.
       </motion.h1>
 
@@ -89,7 +89,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/Srujan.pdf"
+          href="/Srujan_resume (1).pdf"
           download
         >
           Download CV{" "}
@@ -98,7 +98,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="Linkedin link"
+          href="https://www.linkedin.com/in/geedipalli-srujan-775a1b223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           target="_blank"
         >
           <BsLinkedin />
@@ -106,7 +106,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="githublink"
+          href="https://github.com/Srujan273"
           target="_blank"
         >
           <FaGithubSquare />
